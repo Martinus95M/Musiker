@@ -25,7 +25,7 @@ $(document).ready(function () {
 });
 
   // When scrolling on the page the title on the area you are on will show
-  // when you enter and disappear when you leave the area. 
+  // when you enter and disappear when you leave the area.
 function onScroll(event){
   var scrollPos = $(document).scrollTop();
   $('.menu a').each(function () {

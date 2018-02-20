@@ -19,6 +19,7 @@ body p {
   right: 2.5%;
   transform: translateY(-50%);
   font-family: 'Roboto', sans-serif;
+  z-index: 1000;
 }
 .menu .dot {
   display: block;
@@ -53,7 +54,12 @@ body p {
   opacity: 0;
 }
 
-#bigvid {
+header #bigvid {
+  width: 100%;
+  height: auto;
+  background: purple;
+}
+header #vid {
   width: 100%;
   height: auto;
   background: purple;

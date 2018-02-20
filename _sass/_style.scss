@@ -25,6 +25,7 @@ body{
   right: 2.5%;
   transform: translateY(-50%);
   font-family: 'Roboto', sans-serif;
+  z-index: 1000;
 
   .dot{
     display: block;
@@ -64,10 +65,19 @@ body{
   }
 }
 
-#bigvid {
-  width: 100%;
-  height: auto;
-  background: purple;
+header {
+
+  #bigvid {
+    width: 100%;
+    height: auto;
+    background: purple;
+  }
+
+  #vid {
+    width: 100%;
+    height: auto;
+    background: purple;
+  }
 }
 
 #main {
