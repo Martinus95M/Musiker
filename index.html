@@ -4,28 +4,55 @@
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Nixie+One|Roboto" rel="stylesheet">
     <title>Emmilie De Forest</title>
   </head>
   <body>
-    <script src="jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script/script.js"></script>
 
-    <header>
+    <!-- Menu -->
 
+    <nav class="menu">
+      <a href="#vid" class="dot"> <span class="forty">Video</span></a>
+      <a href="#section-a" class="dot"><span class="forty">Hvem</span></a>
+      <a href="#section-b" class="dot"><span class="forty">Jeg</span></a>
+      <a href="#section-c" class="dot"><span class="forty">Er</span></a>
+      <a href="#section-d" class="dot"><span class="forty">Ved</span></a>
+      <a href="#main-footer" class="dot"><span class="forty">Ikke</span></a>
+    </nav>
+
+
+
+    <header id="bigvid">
+      <video id="vid" autoplay loop>
+        <!-- mp4 -->
+        <source src="video/P1960293.mp4" type="video/mp4">
+        <!-- ogg -->
+        <source src="P1960293.ogg" type="video/ogg">
+      </video>
     </header>
+
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+
+    </div>
 
     <main id="main">
       <section id="section-a" class="grid">
-
+        <h1>lorem</h1>
       </section>
       <section id="section-b" class="grid">
-
+        <h1>lorem</h1>
       </section>
       <section id="section-c" class="grid">
-
+        <h1>lorem</h1>
       </section>
       <section id="section-d" class="grid">
-
+        <h1>lorem</h1>
       </section>
     </main>
 
