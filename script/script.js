@@ -1,4 +1,8 @@
 $(document).ready(function () {
+
+  setTimeout(function(){
+    $('body').addClass('loaded');
+  })
     $(document).on("scroll", onScroll);
 
     //smoothscroll
@@ -22,21 +26,21 @@ $(document).ready(function () {
           $(document).on("scroll", onScroll);
         });
     });
-});
 
-  // When scrolling on the page the title on the area you are on will show
-  // when you enter and disappear when you leave the area.
-function onScroll(event){
-  var scrollPos = $(document).scrollTop();
-  $('.menu a').each(function () {
-    var currLink = $(this);
-    var refElement = $(currLink.attr("href"));
-    if (refElement.position().top <=scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-      $('.menu a').removeClass("active");
-      currLink.addClass("active");
-    }
-    else {
-      currLink.removeClass("active");
-    }
-  });
-}
+    // When scrolling on the page the title on the area you are on will show
+    // when you enter and disappear when you leave the area.
+  function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('.menu a').each(function () {
+      var currLink = $(this);
+      var refElement = $(currLink.attr("href"));
+      if (refElement.position().top <=scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        $('.menu a').removeClass("active");
+        currLink.addClass("active");
+      }
+      else {
+        currLink.removeClass("active");
+      }
+    });
+  }
+});
