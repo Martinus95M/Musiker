@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   setTimeout(function(){
     $('body').addClass('loaded');
-  })
+  }, 4000)
     $(document).on("scroll", onScroll);
 
     //smoothscroll

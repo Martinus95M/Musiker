@@ -110,6 +110,7 @@ header #vid {
   right: 0;
 }
 
+/*                                                                          */
 .loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
