@@ -5,7 +5,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Nixie+One|Roboto" rel="stylesheet">
-    <title>Emmilie De Forest</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Basic" rel="stylesheet">
+    <title>Emmeilie De Forest</title>
   </head>
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,23 +16,25 @@
     <!-- Menu -->
 
     <nav class="menu">
-      <a href="#vid" class="dot"> <span class="forty">Video</span></a>
+      <a href="#video1" class="dot"> <span class="forty">Video</span></a>
       <a href="#section-a" class="dot"><span class="forty">Hvem</span></a>
       <a href="#section-b" class="dot"><span class="forty">Jeg</span></a>
-      <a href="#section-c" class="dot"><span class="forty">Er</span></a>
-      <a href="#section-d" class="dot"><span class="forty">Ved</span></a>
+      <a href="#section-c" class="dot"><span class="forty">Jeg</span></a>
       <a href="#main-footer" class="dot"><span class="forty">Ikke</span></a>
     </nav>
 
 
 
     <header>
-      <video id="video" autoplay loop>
+      <img id="logo" src="css/img/logo-musik-4.png" alt="LOGO">
+      <video class="video" id="video1" autoplay loop>
         <!-- mp4 -->
         <source src="video/P1960293.mp4" type="video/mp4">
         <!-- ogg -->
-        <source src="P1960293.ogg" type="video/ogg">
+        <source src="video/P1960293.ogg" type="video/ogg">
       </video>
+      <div id="video_controls_bar">
+    <a class="video-control js-video-control paused" href="#" data-video="video1"></a>
     </header>
 
     <div id="loader-wrapper">
@@ -43,21 +47,102 @@
 
     <main id="main">
       <section id="section-a" class="grid">
-        <h1>lorem</h1>
+        <div class="content-wrap">
+          <h2 class="content-title">My Story</h2>
+          <div class="content-text">
+            <p>Danish artist Emmelie de Forest might be most famous for winning the Eurovision Song Contest, but she is also an acclaimed songwriter having written over 80 songs for herself and for other artists. Aged 14, she met the Glaswegian folk artist Fraser Neill – a Danish resident since the mid 90’s – at a festival in Ajstrup. The duo spent the next five years touring in Denmark and releasing the album Emmelie de Forest & Fraser Neill. In January 2013 she took part in the Danish Melodi Grand Prix, the competition which ultimately sent her to Malmö, Sweden as the Danish entrant to the final of Eurovision Song Contest.</p>
+            <p>After the ESC victory with Only Teardrops, she signed a deal with Universal to release an album, an acoustic EP and five freestanding singles. But in late 2015 she parted ways with the major label company in order to find her own way as an artist and wanting more freedom to figure out her own sound. </p>
+            </div>
+        </div>
       </section>
+
       <section id="section-b" class="grid">
-        <h1>lorem</h1>
+        <ul>
+          <li>
+            <div class="card">
+              <img src="css/img/facebook.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Facebook</h3>
+                <p>Hey come and follow me on facebook
+                  for new singles and albums comming out.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="css/img/instagram.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Mobile Applications</h3>
+                <p>Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit.
+                  Error obcaecati, quo odio,
+                  autem alias tempora nam.
+                  Deleniti alias provident vitae.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="css/img/twitter.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Tech Marketing</h3>
+                <p>Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit.
+                  Error obcaecati, quo odio,
+                  autem alias tempora nam.
+                  Deleniti alias provident vitae.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
       <section id="section-c" class="grid">
-        <h1>lorem</h1>
-      </section>
-      <section id="section-d" class="grid">
-        <h1>lorem</h1>
+        <ul>
+          <li>
+            <div class="card">
+              <img src="css/img/soundcloud.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Tech Marketing</h3>
+                <p>Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit.
+                  Error obcaecati, quo odio,
+                  autem alias tempora nam.
+                  Deleniti alias provident vitae.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="css/img/spotify.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Tech Marketing</h3>
+                <p>Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit.
+                  Error obcaecati, quo odio,
+                  autem alias tempora nam.
+                  Deleniti alias provident vitae.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="css/img/itunes.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Tech Marketing</h3>
+                <p>Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit.
+                  Error obcaecati, quo odio,
+                  autem alias tempora nam.
+                  Deleniti alias provident vitae.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
     <footer id="main-footer" class="grid">
-
+      <h1>lorem</h1>
     </footer>
 
   </body>
