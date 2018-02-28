@@ -66,3 +66,7 @@ $(document).on('click', '.js-video-control', function(e) {
   playVideo($(this));
   e.preventDefault();
 });
+
+$( function() {
+    $( ".draggable" ).draggable();
+  } );
